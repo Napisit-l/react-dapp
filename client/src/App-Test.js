@@ -45,6 +45,7 @@ class App extends Component {
     // this.setState({ manager, players, balance });
 
     console.log(`manager ${this.state.game}`)
+
   }
 
   // componentDidMount = async () => {

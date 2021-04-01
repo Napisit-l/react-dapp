@@ -11,4 +11,8 @@ contract SimpleStorage {
     function get() public view returns (uint256) {
         return storedData;
     }
+
+    function getBalance() public view returns (uint256) {
+        return address(this).balance;
+    }
 }
